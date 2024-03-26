@@ -12,7 +12,7 @@ import numpy as np
 from torch.optim import lr_scheduler
 
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 print(device)
 
 # Data transformation for training
