@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch.optim import lr_scheduler
 
-
+#  the device line is added here 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 
