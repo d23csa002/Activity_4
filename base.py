@@ -11,10 +11,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch.optim import lr_scheduler
 
-
-
-print(device)
-
 # Data transformation for training
 transform_train = transforms.Compose([
     transforms.RandomRotation(10),  # Rotate the image by a random angle (±10 degrees)
