@@ -12,6 +12,7 @@ import numpy as np
 from torch.optim import lr_scheduler
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -20,6 +21,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 >>>>>>> ec464ea3b8038bd61912a19cecc90b65d877235b
 print(device)
 
+=======
+>>>>>>> 79b521f73df898455a38f6c27468e83b184f9b2d
 # Data transformation for training
 transform_train = transforms.Compose([
     transforms.RandomRotation(10),  # Rotate the image by a random angle (±10 degrees)
